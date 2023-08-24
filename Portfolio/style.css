@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: "Open-Sans",sans-serif;
+    max-width: 80%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.images {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-top: 20px;
+} 
+
+.titel {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.table {
+    margin-left: 20px;
+}
+
+.name {
+    color: gray;
+}
+
+.coral {
+   color: coral; 
+}
+
+.qul {
+    letter-spacing: 1px;
+}
+
+.hrline {
+    border: 1px solid coral;
+}
+
+.table-heading {
+    min-width: 300px;
+    display: block;
+}
+
+.corals {
+    font-size: 22px;
+    color: coral;
+}
+
+.marginfix {
+    margin-top: 20px;
+}
+
+.jobtitle {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.jobduration {
+    font-size: 14px;
+}
+
+.jobdic {
+    font-weight: 300;
+    margin-top: 10px;
+}
